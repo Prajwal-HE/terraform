@@ -1,6 +1,6 @@
 module "ec2-instance" {
   source = "./modules/ec2instance"
-  ami-id = "ami-053a45fff0a704a47"
+  ami-id = "ami-053a45fff0a704b56"
   instance-type = "t2.micro"
 }
  module "s3-bucket" {
